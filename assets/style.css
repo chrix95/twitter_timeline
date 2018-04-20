@@ -1,0 +1,73 @@
+body {
+  max-width: 100%;
+  margin: 8px;
+  position: relative;
+}
+header {
+  background-image: url('../assets/bg2.jpeg');
+  height: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  background-color: rgba(0, 34, 255, 0.46);
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 200px;
+}
+header h1 {
+  padding: 100px 20px 0px;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 0px;
+  font-family: sans-serif;
+}
+article h2, aside h2 {
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: -1px;
+    font-size: 21px;
+}
+section {
+  padding: 30px 4%;
+}
+ul {
+  padding-left: 27px;
+}
+article {
+  width: 55%;
+  float: left;
+}
+article p {
+  text-align: justify;
+}
+aside {
+  width: 40%;
+  margin-left: 5%;
+  float: left;
+  margin-bottom: 15px;
+}
+.footer {
+  clear: both;
+  background-color: #5968CB;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  aside {
+    width: 100% !important;
+    float: left;
+  }
+  article {
+    width: 100%;
+    float: left;
+  }
+}
